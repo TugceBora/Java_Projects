@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+}
+.row{
+    margin:0px;
+    height: 20px;
+}
+.row div{
+    width: 20px;
+    height: 20px;
+    border:0px solid black;
+    display:inline-block;
+    margin:0px;
+}
+.brick{
+    background-color:green;
+    /* display:inline-block; */
+}
+.coin{
+    background: url(coin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:18px 18px;
+    border-style: none;
+    height: 18px;
+}
+#points{
+    position: absolute;
+    left: 300px;
+    top:20px;
+    color:white;
+    width: 100px;
+    height: 75px;
+    font-size: 1.5em;
+
+}
+.pacmanimg{
+    background: url(pacmanimage.png);
+    background-position: center;
+    background-size: 20px 20px;
+    border: none;
+
+    /* width: 20px;
+    height: 20px; */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.emptyspace{
+    background-color:black;
+}
